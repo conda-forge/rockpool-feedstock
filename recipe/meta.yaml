@@ -1,5 +1,5 @@
 {% set name = "rockpool" %}
-{% set version = "1.0.7.post1" %}
+{% set version = "1.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: da229128b854f41bf735420bb337381054383fb551022ee194e9c9130377a4bc
+  sha256: c1b2a8910197bf2350c56a7cf0904163de56dab1e4a6b77301d4a737efe35d45
 
 build:
   noarch: python
