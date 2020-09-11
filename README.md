@@ -5,7 +5,7 @@ Home: https://gitlab.com/ai-ctx/rockpool
 
 Package license: AGPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python package for developing, simulating and training spiking neural networks, and deploying on Neuromorphic hardware
 
