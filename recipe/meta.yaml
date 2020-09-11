@@ -1,5 +1,5 @@
 {% set name = "rockpool" %}
-{% set version = "1.0.8" %}
+{% set version = "1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c1b2a8910197bf2350c56a7cf0904163de56dab1e4a6b77301d4a737efe35d45
+  sha256: 428cddeb45264a350b2c912d450a091bb5ac5c88b426deba4f8dd2ee22528b39
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: AGPL-3.0
   license_family: AGPL
   license_file: LICENSE
-  summary: 'Python package for developing, simulating and training spiking neural networks, and deploying on Neuromorphic hardware'
+  summary: Python package for developing, simulating and training spiking neural networks, and deploying on Neuromorphic hardware
 
   description: |
     Rockpool is a Python package for working with dynamical neural network architectures, particularly for designing event-driven networks for Neuromorphic computing hardware. Rockpool provides a convenient interface for designing, training and evaluating recurrent networks, which can operate both with continuous-time dynamics and event-driven dynamics.
