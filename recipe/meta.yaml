@@ -1,5 +1,5 @@
 {% set name = "rockpool" %}
-{% set version = "1.0.7.post1" %}
+{% set version = "2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: da229128b854f41bf735420bb337381054383fb551022ee194e9c9130377a4bc
+  sha256: c9cb92efade9bdc39340dd820e3b3c8c8399a5b95bd422961f432ef048af99fb
 
 build:
   noarch: python
-  number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 1
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -20,8 +20,6 @@ requirements:
     - pip
   run:
     - numpy
-    - scipy
-    - numba
     - python >=3.6
 
 test:
@@ -29,17 +27,17 @@ test:
   license_family: AGPL
 
 about:
-  home: https://gitlab.com/aiCTX/rockpool
+  home: https://gitlab.com/synsense/rockpool
   license: AGPL-3.0
   license_family: AGPL
   license_file: LICENSE
-  summary: 'Python package for developing, simulating and training spiking neural networks, and deploying on Neuromorphic hardware'
+  summary: Python package for developing, simulating and training spiking neural networks, and deploying on Neuromorphic hardware
 
   description: |
     Rockpool is a Python package for working with dynamical neural network architectures, particularly for designing event-driven networks for Neuromorphic computing hardware. Rockpool provides a convenient interface for designing, training and evaluating recurrent networks, which can operate both with continuous-time dynamics and event-driven dynamics.
-    Rockpool is an open-source project managed by aiCTX AG
-  doc_url: https://aictx.gitlab.io/rockpool/
-  dev_url: https://gitlab.com/aiCTX/rockpool
+    Rockpool is an open-source project managed by SynSense
+  doc_url: https://rockpool.ai
+  dev_url: https://gitlab.com/synsense/rockpool
 
 extra:
   recipe-maintainers:
