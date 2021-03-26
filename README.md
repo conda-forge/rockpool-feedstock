@@ -1,7 +1,7 @@
 About rockpool
 ==============
 
-Home: https://gitlab.com/ai-ctx/rockpool
+Home: https://rockpool.ai
 
 Package license: AGPL-3.0
 
