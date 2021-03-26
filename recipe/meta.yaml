@@ -29,7 +29,7 @@ test:
     - rockpool
 
 about:
-  home: https://gitlab.com/ai-ctx/rockpool
+  home: https://gitlab.com/synsense/rockpool
   license: AGPL-3.0
   license_family: AGPL
   license_file: LICENSE
@@ -37,9 +37,9 @@ about:
 
   description: |
     Rockpool is a Python package for working with dynamical neural network architectures, particularly for designing event-driven networks for Neuromorphic computing hardware. Rockpool provides a convenient interface for designing, training and evaluating recurrent networks, which can operate both with continuous-time dynamics and event-driven dynamics.
-    Rockpool is an open-source project managed by aiCTX AG
-  doc_url: https://aictx.gitlab.io/rockpool/
-  dev_url: https://gitlab.com/aiCTX/rockpool
+    Rockpool is an open-source project managed by SynSense
+  doc_url: https://rockpool.ai
+  dev_url: https://gitlab.com/synsense/rockpool
 
 extra:
   recipe-maintainers:
