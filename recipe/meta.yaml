@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -20,13 +20,10 @@ requirements:
     - pip
   run:
     - numpy
-    - scipy
-    - numba
     - python >=3.6
 
 test:
   imports:
-  license_family: AGPL
 
 about:
   home: https://gitlab.com/synsense/rockpool
