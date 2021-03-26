@@ -22,6 +22,9 @@ requirements:
     - numpy
     - python >=3.6
 
+test:
+  imports:
+
 about:
   home: https://gitlab.com/synsense/rockpool
   license: AGPL-3.0
