@@ -152,4 +152,5 @@ Feedstock Maintainers
 =====================
 
 * [@DylanMuir](https://github.com/DylanMuir/)
+* [@ssinhaleite](https://github.com/ssinhaleite/)
 
