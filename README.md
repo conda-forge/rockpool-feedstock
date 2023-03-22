@@ -1,11 +1,11 @@
-About rockpool
-==============
+About rockpool-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rockpool-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.com/synsense/rockpool
 
 Package license: AGPL-3.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rockpool-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python package for developing, simulating and training spiking neural networks, and deploying on Neuromorphic hardware
 
